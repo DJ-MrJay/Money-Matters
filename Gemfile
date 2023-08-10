@@ -14,6 +14,7 @@ gem 'shrine'
 gem 'sprockets-rails'
 gem 'stimulus-rails'
 gem 'turbo-rails'
+gem 'rspec-rails'
 
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
