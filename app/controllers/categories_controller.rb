@@ -3,7 +3,7 @@ class CategoriesController < ApplicationController
   before_action :set_category, only: [:show]
 
   def index
-    @cats = Category.all.order(created_at: :desc).includes(:expenses)
+    @categs = Category.all.order(created_at: :desc).includes(:expenses)
   end
 
   def new
