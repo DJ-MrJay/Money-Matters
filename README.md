@@ -1,3 +1,7 @@
+<div>
+  ![](app/assets/images/money-matters-icon.png)
+</div>
+
 <a name="readme-top"></a>
 
 # 📗 Table of Contents
@@ -30,39 +34,23 @@
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://www.javascript.com/">JavaScript</a></li>
-  </ul>
-</details>
 
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://rubyonrails.org/">Ruby on Rails</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
+- Client: <a href="https://www.javascript.com/">JavaScript</a></li>
+- Server: <a href="https://rubyonrails.org/">Ruby on Rails</a></li>
+- Database: <a href="https://www.postgresql.org/">PostgreSQL</a></li>
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-- **[authentication system to facilitate login and registration]**
-- **[list categories of items you spend on]**
-- **[list transactions for a specific category]**
+- Authentication system to facilitate login and registration
+- Listing of categories of expenses
+- Listing of transactions for a specific category
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Project Presentation <a name="project-presentation"></a>
-- [Video](https://www.loom.com)
+- [Video](https://www.loom.com/share/44dc3811a4374f98bc00a357d59fb2a8?sid=f7cc6213-3353-4310-8d71-b4954dcbc17a)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -71,11 +59,9 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
 
 To get a local copy up and running, follow these steps.
 
@@ -98,7 +84,9 @@ git clone https://github.com/DJ-MrJay/Money-Matters
 
 - Navigate to the location of the folder you just cloned:
 
-**`cd Money-Matters`**
+```
+cd Money-Matters
+```
 
 ### Install
 
@@ -109,7 +97,7 @@ bundle install
 ```
 ### Database Setup
 
-- Navigate to config/database.yml and edit the username and password with your PostgreSQL credentials (line 21 and 22)
+- Navigate to `config/database.yml` and edit the username and password with your PostgreSQL credentials (line 21 and 22)
 
 - Run the following command:
 ```
@@ -121,7 +109,7 @@ rails db:create db:migrate
 To run the App type the following command in your terminal:
 
 ```
-rails s OR rails server
+rails server
 ```
 
 ### Run tests
@@ -135,7 +123,7 @@ rubocop
 - To run RSpec tests, type the following command:
 
 ```
-rspec spec/<folder>/<file>
+rspec spec/<directory>/<file>
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -153,14 +141,14 @@ rspec spec/<folder>/<file>
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Addition of more functions and features**
-- [ ] **Improvement of the visual front-end**
+- Addition of more functions and features
+- Improvement of the visual front-end
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🤝 Contributing <a name="contributing"></a>
 
-Contributions, issues, and feature requests are welcome!
+Contributions, issues, and feature requests are welcome.
 
 Feel free to check the [issues page](../../issues/).
 
@@ -174,7 +162,7 @@ Give a ⭐️ if you like this project.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-- [Gregoire Vella on Behance](https://www.behance.net/gregoirevella) for the original design idea
+- [Gregoire Vella on Behance](https://www.behance.net/gregoirevella) for the [original design](https://www.behance.net/gallery/19759151/Snapscan-iOs-design-and-branding?tracking_source=) idea
 - [Microverse Coding School](https://www.microverse.org) for a A+ curriculum
 - Code reviewers, coding partners, morning and standup teams for the great insights
 - Hat tip to anyone else whose code was used
