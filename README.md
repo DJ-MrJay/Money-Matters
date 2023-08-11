@@ -77,13 +77,13 @@ In order to run this project you need the following installed on your computer:
 
 ### Setup
 
-Clone this repository or download the Zip folder:
+1. Clone this repository
 
 ```
-git clone https://github.com/DJ-MrJay/Money-Matters
+git clone https://github.com/DJ-MrJay/Money-Matters.git
 ```
 
-- Navigate to the location of the folder you just cloned:
+2. Navigate to the project
 
 ```
 cd Money-Matters
@@ -98,30 +98,32 @@ bundle install
 ```
 ### Database Setup
 
-- Navigate to `config/database.yml` and edit the username and password with your PostgreSQL credentials (line 21 and 22)
+1. Navigate to `config/database.yml` and edit the username and password with your PostgreSQL credentials (line 21 and 22)
 
-- Run the following command:
+2. Run the following command
 ```
 rails db:create db:migrate
 ```
 
 ### Usage
 
-To run the App type the following command in your terminal:
+Run the application
 
 ```
 rails server
 ```
 
+Open your browser and go to http://localhost:3000
+
 ### Run tests
 
-- To check for linter errors, type the following command:
+To check for linter errors
 
 ```
 rubocop
 ```
 
-- To run RSpec tests, type the following command:
+To run RSpec tests
 
 ```
 rspec spec/<directory>/<file>
