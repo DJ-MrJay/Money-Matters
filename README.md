@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="app/assets/images/logo.png" alt="logo" width="200"  height="auto" />
+  <img src="app/assets/images/logo.png" alt="logo" width="200"  height="auto" style="margin: 20px 0;" />
   <br>
 </div>
 
@@ -56,7 +56,7 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Live Demo <a name="live-demo"></a>
-- [Money Matters](https://render.com/)
+- [Money Matters](https://money-matters-p0pp.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
