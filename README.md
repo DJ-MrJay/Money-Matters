@@ -1,5 +1,6 @@
-<div>
-  ![](app/assets/images/money-matters-icon.png)
+<div align="center">
+  <img src="app/assets/images/logo.png" alt="logo" width="200"  height="auto" />
+  <br>
 </div>
 
 <a name="readme-top"></a>
