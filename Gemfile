@@ -10,11 +10,11 @@ gem 'jbuilder'
 gem 'pg', '~> 1.1'
 gem 'puma', '~> 5.0'
 gem 'rails', '~> 7.0.6'
+gem 'rails-controller-testing'
 gem 'shrine'
 gem 'sprockets-rails'
 gem 'stimulus-rails'
 gem 'turbo-rails'
-gem 'rails-controller-testing'
 
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
