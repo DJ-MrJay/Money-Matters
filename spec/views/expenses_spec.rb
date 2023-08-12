@@ -44,7 +44,7 @@ RSpec.describe 'expenses', type: :feature do
     end
 
     it 'shows total expenses amount' do
-      expect(page).to have_content("$ #{number_with_delimiter(@expenses_sum, delimiter: ',')}0")
+      expect(page).to have_content("$#{number_with_delimiter(@expenses_sum, delimiter: ',')}0")
     end
 
     it 'shows expense name' do
@@ -52,7 +52,7 @@ RSpec.describe 'expenses', type: :feature do
     end
 
     it 'shows expense amount' do
-      expect(page).to have_content("$ #{number_with_delimiter(@expense.amount, delimiter: ',')}0")
+      expect(page).to have_content("$#{number_with_delimiter(@expense.amount, delimiter: ',')}0")
     end
   end
 
@@ -80,7 +80,7 @@ RSpec.describe 'expenses', type: :feature do
     end
 
     it 'shows save button' do
-      expect(page).to have_button('Save')
+      expect(page).to have_button('SAVE')
     end
   end
 end

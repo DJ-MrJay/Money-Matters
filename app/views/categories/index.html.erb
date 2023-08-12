@@ -19,20 +19,20 @@
             </div>
 
             <div class="name-date-col">
-              <h3><%= categ.name %><br>
-              <small><%= categ.format_date(categ.created_at) %></small></h3>
+              <h3><%= categ.name %></h3>
+              <p><%= categ.format_date(categ.created_at) %></p>
             </div>
 
             <div class="amount-col">
-              <h3>Total Spent<br><small><%= "$ " + number_with_delimiter(categ.expenses.sum(:amount), delimiter: ',') + "0" %></small></h3>
+              <h3><small><%= "$" + number_with_delimiter(categ.expenses.sum(:amount), delimiter: ',') + "0" %></small></h3>
             </div>
           </a>
         </div>
       <% end %>
     <% end %>
 
-    <div class="large-button">
-      <%= link_to "Add Category", new_category_path, class: "add-cat-btn", role: "button" %>
+    <div class="footer">
+      <%= link_to "ADD CATEGORY", new_category_path, class: "add-cat-btn", role: "button" %>
     </div>
   </div>
 </div>

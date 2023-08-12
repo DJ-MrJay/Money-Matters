@@ -25,7 +25,7 @@ RSpec.feature 'Categories', type: :feature do
     end
 
     it 'shows "Add Category" button' do
-      expect(page).to have_link('Add Category', href: new_category_path)
+      expect(page).to have_link('ADD CATEGORY', href: new_category_path)
     end
   end
 

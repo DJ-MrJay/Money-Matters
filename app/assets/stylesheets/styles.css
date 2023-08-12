@@ -6,6 +6,12 @@
   scroll-behavior: smooth;
 }
 
+body {
+  background-color: #f7f7f7;
+  padding: 0 5px;
+  height: 100%;
+}
+
 .material-icons.md-18 { font-size: 18px; }
 .material-icons.md-24 { font-size: 24px; }
 .material-icons.md-36 { font-size: 36px; }
@@ -31,12 +37,32 @@
   text-align: center;
 }
 
-.login-btn,
-.signup-btn,
-.submit-btn,
 .add-cat-btn,
 .add-trans-btn,
 .save-btn {
+  background-color: #5fb523;
+  color: white;
+  border: 1px solid white;
+  border-radius: 3px;
+  padding: 15px;
+  display: block;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #5fb523;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+
+.login-btn,
+.signup-btn,
+.submit-btn {
   width: 500px;
   background-color: lightgray;
   padding: 15px 100px;
@@ -45,10 +71,7 @@
 }
 
 .login-btn:hover,
-.signup-btn:hover,
-.add-cat-btn:hover,
-.add-trans-btn:hover,
-.save-btn:hover {
+.signup-btn:hover {
   width: 500px;
   color: white;
   background-color: #3778c2;
@@ -91,9 +114,9 @@ nav a {
   color: white;
 }
 
-.login-submit,
-.reg-submit,
-.material-icons {
+.nav-login,
+.nav-logout,
+.reg-submit {
   color: white;
   background-color: rgba(255, 255, 255, 0);
   border: 0;
@@ -110,14 +133,15 @@ nav a {
   cursor: pointer;
 }
 
-input {
+input,
+input:focus {
   width: 100%;
   padding: 15px 10px;
-  margin-bottom: 5px;
-  margin-top: 5px;
   border: 1px solid lightgray;
   font-size: 1rem;
-  border-radius: 2px;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #f7f7f7;
 }
 
 .forgot,
@@ -137,10 +161,10 @@ input {
   padding: 15px 10px;
   margin-bottom: 5px;
   margin-top: 5px;
-  border: 1px solid lightgray;
+  border: 1px solid #fff;
   font-size: 1rem;
-  border-radius: 2px;
-  background-color: #f7f7f7;
+  border-radius: 3px;
+  background-color: #fff;
 }
 
 .category-item-row {
@@ -163,6 +187,12 @@ input {
   object-fit: cover;
 }
 
+.name-date-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .amount-col {
   text-align: right;
 }
@@ -170,4 +200,8 @@ input {
 .expense-container {
   display: grid;
   grid-template-columns: 3fr 1fr;
+}
+
+hr {
+  border-top: 1px solid lightgray;
 }

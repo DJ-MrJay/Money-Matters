@@ -16,13 +16,13 @@
       </div>
 
       <div class="name-date-col">
-        <h3><%= @category.name %><br>
-        <small><%= @category.format_date(@category.created_at) %></small></h3>
+        <h3><%= @category.name %></h3>
+        <p><%= @category.format_date(@category.created_at) %></p>
       </div>
     </div>
 
     <h3>
-      <h3>Total: $ <%= number_with_delimiter(@expenses_sum, delimiter: ',') + "0" %></h3>
+      <h3>Total: $<%= number_with_delimiter(@expenses_sum, delimiter: ',') + "0" %></h3>
     </h3>
   </div>
 
@@ -40,14 +40,14 @@
 
           <div class="amount-col">
             <h4>Amount<br>
-            <small><%= "$ " + number_with_delimiter(t.amount, delimiter: ',') + "0" %></small></h4>
+            <small><%= "$" + number_with_delimiter(t.amount, delimiter: ',') + "0" %></small></h4>
           </div>
         </div>
       <% end %>
     <% end %>
   </div>
 
-  <div class="large-button">
-    <%= link_to "Add Transaction", new_category_expense_path(@category), class: "add-trans-btn", role: "button" %>
+  <div class="footer">
+    <%= link_to "ADD TRANSACTION", new_category_expense_path(@category), class: "add-trans-btn", role: "button" %>
   </div>
 </div>
