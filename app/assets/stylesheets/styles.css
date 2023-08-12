@@ -59,7 +59,6 @@ body {
   padding: 20px;
 }
 
-
 .login-btn,
 .signup-btn,
 .submit-btn {
@@ -137,7 +136,6 @@ input,
 input:focus {
   width: 100%;
   padding: 15px 10px;
-  border: 1px solid lightgray;
   font-size: 1rem;
   border: none;
   outline: none;
