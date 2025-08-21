@@ -1,6 +1,5 @@
 <div align="center">
-  <img src="app/assets/images/logo.png" alt="logo" width="200"  height="auto" style="margin: 20px 0;" />
-  <br>
+  <img src="app/assets/images/logo.png" alt="Money Matters Logo" width="200" height="auto" style="margin: 20px 0;" />
 </div>
 
 <a name="readme-top"></a>
@@ -11,118 +10,119 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🔭 Project Presentation](#project-presentation)
+  - [🎥 Project Presentation](#project-presentation)
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
   - [Prerequisites](#prerequisites)
+  - [Setup](#setup)
   - [Install](#install)
+  - [Database Setup](#database-setup)
   - [Usage](#usage)
-  - [Run tests](#run-tests)
-- [👥 Authors](#authors)
+  - [Run Tests](#run-tests)
+- [👤 Author](#author)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
+- [⭐️ Show Your Support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->
+---
 
 # 📖 Money Matters <a name="about-project"></a>
 
-> This is a Ruby on Rails budgeting app for managing transactions by categories. It enables users to add and track expenses, categorize transactions, and view spending insights.
+**Money Matters** is a Ruby on Rails budgeting app for managing personal expenses.  
+It allows users to add and track transactions, group them by categories, and view insights into their spending.
+
+---
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
-
-- Client: <a href="https://www.javascript.com/">JavaScript</a></li>
-- Server: <a href="https://rubyonrails.org/">Ruby on Rails</a></li>
-- Database: <a href="https://www.postgresql.org/">PostgreSQL</a></li>
-
-<!-- Features -->
+- **Client:** [JavaScript](https://www.javascript.com/)  
+- **Server:** [Ruby on Rails](https://rubyonrails.org/)  
+- **Database:** [PostgreSQL](https://www.postgresql.org/)  
 
 ### Key Features <a name="key-features"></a>
+- User authentication (sign up and log in)  
+- Create and manage categories of expenses  
+- Add and view transactions under specific categories  
 
-- Authentication system to facilitate login and registration
-- Listing of categories of expenses
-- Listing of transactions for a specific category
+<p align="right">(<a href="#readme-top">Back to top</a>)</p>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+---
 
-### Project Presentation <a name="project-presentation"></a>
-- [Video](https://www.loom.com/share/44dc3811a4374f98bc00a357d59fb2a8?sid=f7cc6213-3353-4310-8d71-b4954dcbc17a)
+## 🎥 Project Presentation <a name="project-presentation"></a>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+- [Watch the demo video](https://www.loom.com/share/44dc3811a4374f98bc00a357d59fb2a8?sid=f7cc6213-3353-4310-8d71-b4954dcbc17a)
 
-### Live Demo <a name="live-demo"></a>
-- [Money Matters](https://money-matters-p0pp.onrender.com/)
+<p align="right">(<a href="#readme-top">Back to top</a>)</p>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+---
 
-<!-- GETTING STARTED -->
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Money Matters Live](https://money-matters-p0pp.onrender.com/)
+
+<p align="right">(<a href="#readme-top">Back to top</a>)</p>
+
+---
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and running, follow these steps.
+Follow these steps to run the project locally.
 
 ### Prerequisites
-
-In order to run this project you need the following installed on your computer:
-- Ruby v3+,
-- Rails v7+
-- PostgreSQL
-- An IDE e.g. [Visual Studio Code](https://code.visualstudio.com/)
-- A terminal e.g. [Git BASH](https://gitforwindows.org/)
+Ensure you have the following installed:
+- [Ruby **v3+**](https://www.ruby-lang.org/en/documentation/installation/)
+- [Rails **v7+**](https://guides.rubyonrails.org/install_ruby_on_rails.html)
+- [PostgreSQL](https://www.postgresql.org/download/)
+- A code editor such as [Visual Studio Code](https://code.visualstudio.com/) or [Cursor](https://cursor.sh/)  
+- A terminal such as [Git Bash](https://gitforwindows.org/)
 
 ### Setup
-
-Clone this repository or download the Zip folder:
-
-```
+Clone the repository:
+```bash
 git clone https://github.com/DJ-MrJay/Money-Matters
 ```
 
-- Navigate to the location of the folder you just cloned:
-
+Navigate into the project folder:
 ```
 cd Money-Matters
 ```
 
 ### Install
 
-Install all dependencies. Run:
-
+Install dependencies:
 ```
 bundle install
 ```
+
 ### Database Setup
 
-- Navigate to `config/database.yml` and edit the username and password with your PostgreSQL credentials (line 21 and 22)
+- Open config/database.yml and update the username and password fields with your PostgreSQL credentials (around line 21–22).
 
-- Run the following command:
+- Create and migrate the database:
 ```
 rails db:create db:migrate
 ```
 
 ### Usage
 
-To run the App type the following command in your terminal:
-
+Start the server:
 ```
 rails server
 ```
 
+Open your browser and go to http://localhost:3000/.
+
 ### Run tests
 
-- To check for linter errors, type the following command:
-
+Check for linter issues:
 ```
 rubocop
 ```
 
-- To run RSpec tests, type the following command:
-
+Run RSpec tests:
 ```
 rspec spec/<directory>/<file>
 ```
@@ -133,17 +133,16 @@ rspec spec/<directory>/<file>
 
 👤 **Jonah Wambua**
 
-- GitHub [link](https://github.com/DJ-MrJay)
-- Twitter [link](https://twitter.com/jonah_wambua)
-- LinkedIn [link](https://www.linkedin.com/in/jonah-wambua/)
-
+- [GitHub](https://github.com/DJ-MrJay)
+- [X](https://x.com/jonah_wambua)
+- [LinkedIn](https://www.linkedin.com/in/jonah-wambua/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- Addition of more functions and features
-- Improvement of the visual front-end
+- More advanced budgeting features
+- Improved front-end design and responsiveness
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -157,21 +156,20 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-Give a ⭐️ if you like this project.
+If you find this project helpful, consider giving it a ⭐️.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-- [Gregoire Vella on Behance](https://www.behance.net/gregoirevella) for the [original design](https://www.behance.net/gallery/19759151/Snapscan-iOs-design-and-branding?tracking_source=) idea
-- [Microverse Coding School](https://www.microverse.org) for a A+ curriculum
-- Code reviewers, coding partners, morning and standup teams for the great insights
-- Hat tip to anyone else whose code was used
+- [Gregoire Vella on Behance](https://www.behance.net/gregoirevella) for the [original design](https://www.behance.net/gallery/19759151/Snapscan-iOs-design-and-branding?tracking_source=) inspiration.
+- [Microverse Coding School](https://www.microverse.org) for a A+ curriculum.
+- Code reviewers, coding partners, morning and standup teams for their valuable feedback.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is licensed under the [MIT License](./LICENSE).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
