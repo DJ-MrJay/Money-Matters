@@ -76,7 +76,7 @@ Ensure you have the following installed:
 - [Ruby **v3+**](https://www.ruby-lang.org/en/documentation/installation/)
 - [Rails **v7+**](https://guides.rubyonrails.org/install_ruby_on_rails.html)
 - [PostgreSQL](https://www.postgresql.org/download/)
-- A code editor such as [Visual Studio Code](https://code.visualstudio.com/) or [Cursor](https://cursor.sh/)  
+- A code editor such as [Visual Studio Code](https://code.visualstudio.com/) or [Cursor](https://cursor.com/downloads)  
 - A terminal such as [Git Bash](https://gitforwindows.org/)
 
 ### Setup
